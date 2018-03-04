@@ -1,0 +1,153 @@
+body{
+  background:lightgreen;
+}
+table{
+  border:1px solid #ddd;
+  width:100%;
+  font-size:25px;
+}
+td {
+  padding:1%;
+}
+table tr:nth-child(odd){
+background-color: #ddd;
+  }
+}
+.flex-parent{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  border: 1px solid #000;
+}
+.profile-child{
+  border: 1PX solid #000;
+  /* background:#fff; */
+  width:30%;
+  padding:2%;
+  margin:1%;
+
+ background:orange;
+ box-shadow: 3px 3px 3px #000;
+
+}
+
+.cotent-child{
+  border: 1PX solid #000;
+  width:70%;
+  padding:2%;
+  margin:1%;
+
+  background:cyan;
+  box-shadow: 3px 3px 3px #000;
+}
+.h2{
+    background: #black;
+    text-align: center;
+  }
+
+
+
+.profile_img{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+  height: 10%;
+}
+.profile_circle{
+  border-radius: 50%;
+  border:1px solid #ddd;
+}
+.a{
+  text-direction:none;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+  .flex-parent{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1PX solid #000;
+  }
+  .profile-child{
+    border: 1PX solid #000;
+    width:100%;
+    padding:2%;
+    margin:1%;
+    background:orange;
+   box-shadow: 3px 3px 3px #000;
+
+  }
+
+  .cotent-child{
+    border: 1PX solid #000;
+    width:100%;
+    padding:2%;
+    margin:1%;
+    background:cyan;
+    box-shadow: 3px 3px 3px #000;
+    justify-content:center;
+  }
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+  .flex-parent{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    border: 1PX solid #000;
+  }
+  .profile-child{
+    border: 1PX solid #000;
+    /* background:#ddd; */
+    width:100%;
+    padding:2%;
+    margin:1%;
+
+   background:orange;
+   box-shadow: 3px 3px 3px #000;
+
+  }
+
+  .cotent-child{
+    border: 1PX solid #000;
+    /* background:#fff; */
+    width:100%;
+    padding:2%;
+    margin:1%;
+
+    background:cyan;
+    box-shadow: 3px 3px 3px #000;
+  }
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+  .flex-parent{
+    display:flex;
+    flex-direction:row;
+flex-wrap: wrap;
+    /*justify-content: center;*/
+    border: 1PX solid #000;
+  }
+  .profile-child{
+    border: 1PX solid #000;
+    /* background:#fff; */
+    width:100%;
+    font-size: 25%;
+    padding:2%;
+    margin:1%;
+
+   background:orange;
+   box-shadow: 3px 3px 3px #000;
+
+  }
+
+  .cotent-child{
+    border: 1PX solid #000;
+    /* background:#fff; */
+    width:100%;
+    padding:2%;
+    margin:1%;
+
+    background:cyan;
+    box-shadow: 3px 3px 3px #000;
+  }
+}

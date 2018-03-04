@@ -1,0 +1,48 @@
+{
+ "basics":{
+ "name":"prabhu",
+ "phone":"6281876871",
+ "photo":"p.png",
+ "email":"prabhu.akuri1998@gmail.com"
+},
+ "education":[
+   {
+   "course":"B-Tech (Computer Science and Engineering)",
+   "college":"gudlavalleru engg college",
+   "data" : ["2016-2019","75%"]
+
+   },
+ {
+   "course":"diplomo (Computer Engineering)",
+    "college":"Sri vara lakshmi polytechnic",
+    "data" : ["2013-2016","75%"]
+
+},
+ {
+   "course":"ssc",
+   "college":"Z.P.H school",
+   "data" : ["2012-2013","75%"]
+
+
+ }
+],
+"skills" :[{
+  "name":"languages known",
+   "info":["c","python","java","javascript"]
+},
+ {
+   "name":"operating system",
+    "info":["linux","windows","fedora"]
+ },
+{
+  "name":"laborotaries",
+   "info":["jquert","bootstrp"]
+
+},
+{
+  "name":"Data basea",
+   "info":["Mysql","pl/sql","fedora","unix"]
+}
+
+]
+}
